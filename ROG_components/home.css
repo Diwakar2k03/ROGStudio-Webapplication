@@ -1,0 +1,54 @@
+.titile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:4px;
+}
+
+
+.svg{
+  color: rgb(81, 81, 82);
+  height: 20px;
+  
+
+}
+
+.hometop{
+    display: flex;
+    background-color:white;
+    padding: 20px;
+    gap: 45px;
+    justify-content: center;
+    font-size: large;
+}
+
+.homephoto img{
+    width: 98vw;
+    height: 80vh;
+    
+}
+.Navbar{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+.me-auto{
+  gap: 200px;
+}
+
+.nav-item{
+  list-style: none;
+}
+
+.lines{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-style: oblique;
+}
+
+.svg{
+  color: rgb(148, 141, 141);
+  
+}

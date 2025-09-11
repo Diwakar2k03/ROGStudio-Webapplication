@@ -1,0 +1,55 @@
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:4px;
+}
+
+
+.card{
+  height: 350px;
+  width: 300px;
+  /* background-color: aqua; */
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.card img{
+  width: 290px;
+  padding: 5px;
+  
+}
+
+/* .card_details{
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+} */
+
+.card_details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  /* gap: 15px; */
+  justify-content: center; /* center the whole grid */
+  /* padding: 15px; */
+  
+}
+
+.card {
+  background: #f5f5f5;
+  /* padding: 30px; */
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(64, 12, 185);
+}
+
+/* Center last 2 cards in second row */
+.card:nth-child(5) {
+  grid-column: 1 / span 1; /* Start at 2nd column */
+}
+.card:nth-child(6) {
+  grid-column: 4 / span 1; /* Start at 3rd column */
+}
+
+
